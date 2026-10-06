@@ -22,3 +22,8 @@ exclude:
   - Gemfile.lock
   - mise.toml
   - vendor
+
+# Legal pages (privacy, terms, data deletion).
+legal_name: AudienceKit
+governing_law: the State of Washington, USA
+legal_updated: 2026-10-06
