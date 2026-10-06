@@ -15,11 +15,10 @@ If you have a question, or want to see, correct or delete your information, emai
 
 The apps use Facebook Login. When you sign in, Facebook shares the information you agree to on its permission screen. Depending on what you allow, that can include:
 
-- your name, first and last name, profile picture, email address, language setting and gender;
-- an app-scoped Facebook ID and a sign-in token, so we can keep you signed in;
-- which Facebook Pages you like, limited to the Pages of venues and people listed in the audience you use, so we can show you what you follow;
-- which of your Facebook friends also use the app, so you can see friends at the same venue or event;
-- the Facebook Pages you manage, if you are a venue or promoter and choose to connect them, so you can update your own listings.
+- your name, first and last name, profile picture and email address;
+- an app-scoped Facebook ID, an ID that is the same across our own Facebook apps (so you keep one account if you sign in through more than one of them), and a sign-in token, so we can keep you signed in;
+- in Hot Mess, which of your Facebook friends also use Hot Mess, so you can see friends at the same venue;
+- on AudienceKit, the list of Facebook Pages you manage, if you are a venue or organizer setting up an audience, so you can choose which Page to link.
 
 We never post to Facebook for you, and we never see your Facebook password.
 
@@ -52,14 +51,14 @@ We don't sell your information, we don't use it for advertising, and we don't sh
 ## Who we share it with
 
 - **Other members of the same audience** see what you choose to make visible in the app, for example your name and picture when you RSVP or check in, and friends who also use the app may see that you're at the same venue.
-- **Service providers** that host and run the service for us, under contracts that limit their use of the data to providing that service: Heroku (hosting), Amazon Web Services (storage and photo delivery), New Relic (performance monitoring) and Twilio (text messages).
+- **Service providers** that host and run the service for us, under contracts that limit their use of the data to providing that service: Heroku (hosting), Amazon Web Services (photo storage, through Heroku, including our copy of your profile picture), New Relic (performance monitoring) and Twilio (text messages).
 - **Google Analytics**, on our websites (audiencekit.com, developer.audiencekit.com and hotmess.social) and in the admin console, to count visits and see which pages people use. It sets first-party cookies and receives your IP address and browser details. We don't link it to your account or use it for advertising. You can opt out with Google's [browser add-on](https://tools.google.com/dlpage/gaoptout).
 - **Meta (Facebook)**, when you sign in with Facebook or when we request public Page information, under Meta's own terms and privacy policy.
 - **When the law requires it**, for example to respond to a valid legal request, or to protect someone's safety.
 
 ## How long we keep it
 
-We keep your account information for as long as your account exists. Location history is kept only as long as it is useful for check-ins and nearby suggestions. When you delete your account, we delete your profile, sign-in tokens, sessions, locations, likes, friend connections, RSVPs and messages within 30 days, except where we must keep something to meet a legal obligation.
+We keep your account information for as long as your account exists. Location history is kept only as long as it is useful for check-ins and nearby suggestions. When you delete your account, we delete your profile, profile picture, sign-in tokens, sessions, locations, friend connections, RSVPs and messages within 30 days, except where we must keep something to meet a legal obligation.
 
 ## Your choices and rights
 
