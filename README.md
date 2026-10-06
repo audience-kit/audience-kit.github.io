@@ -1,8 +1,8 @@
-# www.audiencekit.com
+# audiencekit.com
 
 The AudienceKit marketing site, built with [Jekyll](https://jekyllrb.com) and
 deployed to GitHub Pages by `.github/workflows/pages.yml` on every push to `main`.
-Developer documentation lives at [audiencekit.io](https://audiencekit.io), not here.
+Developer documentation lives at [developer.audiencekit.com](https://developer.audiencekit.com), not here.
 
 ## Develop
 
@@ -25,4 +25,4 @@ scoped with `.theme-hot-mess`. Figtree is self-hosted from `assets/fonts/`.
 | `_layouts/default.html` | Page shell (SEO tags, header, footer) |
 | `_includes/` | Header and footer |
 | `_config.yml` | Site URL, docs link, contact email |
-| `CNAME` | `www.audiencekit.com` |
+| `CNAME` | `audiencekit.com` |
