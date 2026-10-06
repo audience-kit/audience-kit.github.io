@@ -1,1 +1,24 @@
-theme: jekyll-theme-architect
+title: AudienceKit
+tagline: Give every scene its own home.
+description: >-
+  AudienceKit is the platform for building apps for a community: its own name,
+  domain and look, with the venues, events and people that make it real.
+url: https://www.audiencekit.com
+baseurl: ""
+lang: en_US
+
+docs_url: https://audiencekit.io
+github_url: https://github.com/audience-kit
+contact_email: hello@audiencekit.com
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - mise.toml
+  - vendor

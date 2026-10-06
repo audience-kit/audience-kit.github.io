@@ -1,0 +1,8 @@
+[tools]
+ruby = "3.3"
+
+[tasks.serve]
+run = "bundle exec jekyll serve --livereload"
+
+[tasks.build]
+run = "bundle exec jekyll build"
