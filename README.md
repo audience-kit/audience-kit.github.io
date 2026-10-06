@@ -2,7 +2,7 @@
 
 The AudienceKit marketing site, built with [Jekyll](https://jekyllrb.com) and
 deployed to GitHub Pages by `.github/workflows/pages.yml` on every push to `main`.
-Developer documentation lives at [audiencekit.io](https://audiencekit.io), not here.
+Developer documentation lives at [developer.audiencekit.com](https://developer.audiencekit.com), not here.
 
 ## Develop
 
