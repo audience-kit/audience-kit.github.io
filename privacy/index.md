@@ -51,7 +51,7 @@ We don't sell your information, we don't use it for advertising, and we don't sh
 ## Who we share it with
 
 - **Other members of the same audience** see what you choose to make visible in the app, for example your name and picture when you RSVP or check in, and friends who also use the app may see that you're at the same venue.
-- **Service providers** that host and run the service for us, under contracts that limit their use of the data to providing that service: Heroku (hosting), Microsoft Azure (photo storage and delivery, including our copy of your profile picture), Amazon Web Services (storage), New Relic (performance monitoring) and Twilio (text messages).
+- **Service providers** that host and run the service for us, under contracts that limit their use of the data to providing that service: Heroku (hosting), Amazon Web Services (photo storage, through Heroku, including our copy of your profile picture), New Relic (performance monitoring) and Twilio (text messages).
 - **Google Analytics**, on our websites (audiencekit.com, developer.audiencekit.com and hotmess.social) and in the admin console, to count visits and see which pages people use. It sets first-party cookies and receives your IP address and browser details. We don't link it to your account or use it for advertising. You can opt out with Google's [browser add-on](https://tools.google.com/dlpage/gaoptout).
 - **Meta (Facebook)**, when you sign in with Facebook or when we request public Page information, under Meta's own terms and privacy policy.
 - **When the law requires it**, for example to respond to a valid legal request, or to protect someone's safety.
