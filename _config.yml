@@ -11,6 +11,10 @@ docs_url: https://developer.audiencekit.com
 github_url: https://github.com/audience-kit
 contact_email: hello@audiencekit.com
 
+# Google Analytics 4 measurement id (AudienceKit property; the same stream covers the docs and console).
+# Only emitted in production builds, which is what GitHub Pages runs.
+google_analytics: G-W5LTH459WQ
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
