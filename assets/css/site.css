@@ -152,7 +152,11 @@ body {
   font-size: 15px;
   line-height: 20px;
   -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
+main { flex: 1 0 auto; }
 img, svg { display: block; max-width: 100%; }
 a { color: var(--accent-ink); text-decoration: none; }
 a:hover { color: var(--accent-strong); text-decoration: underline; }
