@@ -30,7 +30,7 @@ We never post to Facebook for you, and we never see your Facebook password.
 
 ### Public information about venues, events and people
 
-To keep listings accurate, we collect public information about venues, events, performers and hosts from their public Facebook Pages and from ticketing services such as Eventbrite and Ticketmaster. This includes names, photos, addresses, event times and ticket links. It does not include posts, comments, reactions or information about the people who follow those Pages.
+To keep listings accurate, we get events, and the performers and hosts who appear at them, from the organizers who list them, from our ticketing partners Eventbrite and Ticketmaster, and from our own records. This includes names, photos, event times and ticket links. For venues, we read only public details from their Facebook Pages: name, address, opening hours, website and photos. We don't collect posts, comments, reactions or information about the people who follow those Pages.
 
 ### Event photos
 
@@ -51,7 +51,7 @@ We don't sell your information, we don't use it for advertising, and we don't sh
 ## Who we share it with
 
 - **Other members of the same audience** see what you choose to make visible in the app, for example your name and picture when you RSVP or check in, and friends who also use the app may see that you're at the same venue.
-- **Service providers** that host and run the service for us, under contracts that limit their use of the data to providing that service: Heroku (hosting), Amazon Web Services (photo storage, through Heroku, including our copy of your profile picture), New Relic (performance monitoring) and Twilio (text messages).
+- **Service providers** that host and run the service for us, under contracts that limit their use of the data to providing that service: Heroku (hosting), Amazon Web Services (cloud infrastructure, including photo storage through Heroku, with our copy of your profile picture, and Kinesis, which streams app activity such as venue views and location updates), Stripe and Square (payments), Eventbrite and Ticketmaster (when an organizer connects their account, we store the OAuth tokens it grants so we can sync their events), Firebase Cloud Messaging and Apple Push Notification service (push notifications), New Relic (performance monitoring) and Twilio (text messages).
 - **Google Analytics**, on our websites (audiencekit.com, developer.audiencekit.com and hotmess.social) and in the admin console, to count visits and see which pages people use. It sets first-party cookies and receives your IP address and browser details. We don't link it to your account or use it for advertising. You can opt out with Google's [browser add-on](https://tools.google.com/dlpage/gaoptout).
 - **Meta (Facebook)**, when you sign in with Facebook or when we request public Page information, under Meta's own terms and privacy policy.
 - **When the law requires it**, for example to respond to a valid legal request, or to protect someone's safety.
