@@ -26,7 +26,7 @@ You can also stop an app receiving any more information from Facebook:
 
 - your profile: name, email address, profile picture and the other details Facebook shared;
 - your Facebook sign-in tokens and any Page access you connected;
-- your sessions, devices and location history;
+- your sign-in sessions and tokens, and the location history recorded with them;
 - your likes, friend connections, RSVPs, check-ins, safety pings and messages to venues.
 
 We may keep a record that we deleted your account, and anything the law requires us to keep, for as long as we must. Public listings for venues, events and people, which come from public sources and aren't about you as a user, aren't affected.
