@@ -1,28 +1,19 @@
-# audiencekit.com
+# AudienceKit website
 
-The AudienceKit marketing site, built with [Jekyll](https://jekyllrb.com) and
-deployed to GitHub Pages by `.github/workflows/pages.yml` on every push to `main`.
-Developer documentation lives at [developer.audiencekit.com](https://developer.audiencekit.com), not here.
+Jekyll source for [audiencekit.com](https://audiencekit.com/).
 
-## Develop
+The website presents AudienceKit and its Focus (Admin / Platform), Velvet
+(Venues), and Backstage (Performers / People) apps. Featured audience preview
+content lives in `_data/featured_audiences.yml`.
+
+## Local development
+
+With Ruby 3.3 or newer:
 
 ```sh
-mise install        # Ruby 3.3
 bundle install
-mise run serve      # http://localhost:4000
+bundle exec jekyll serve
 ```
 
-## Design
-
-Colours, type, spacing and radii come from the AudienceKit design system and are
-copied as CSS custom properties at the top of `assets/css/site.css`, in the
-default preset (light and dark). The Hot Mess showcase uses the `hot_mess` preset,
-scoped with `.theme-hot-mess`. Figtree is self-hosted from `assets/fonts/`.
-
-| Path | What |
-| --- | --- |
-| `index.html` | The landing page |
-| `_layouts/default.html` | Page shell (SEO tags, header, footer) |
-| `_includes/` | Header and footer |
-| `_config.yml` | Site URL, docs link, contact email |
-| `CNAME` | `audiencekit.com` |
+Build with `JEKYLL_ENV=production bundle exec jekyll build --strict_front_matter`.
+Pushing to `main` publishes through the existing GitHub Pages workflow.
