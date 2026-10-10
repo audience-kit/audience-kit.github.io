@@ -591,6 +591,12 @@ h1 em,.closing em {
   font-size:13px;
 }
 
+.product-links {
+  display:flex;
+  flex-wrap:wrap;
+  gap:4px 24px;
+}
+
 .hot-mess {
   display:grid;
   grid-template-columns:1fr 1fr;
