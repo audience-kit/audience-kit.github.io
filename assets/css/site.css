@@ -1049,3 +1049,68 @@ h1 em,.closing em {
     scroll-behavior:auto;
   }
 }
+
+/* Parent brand: "A Love Wins Media product" band and footer line. */
+.parent-band {
+  position:relative;
+  background:linear-gradient(90deg,#ec489926,#f59e0b1f);
+  border-bottom:1px solid var(--line);
+  text-align:center;
+  font-size:12px;
+  line-height:1.4;
+  letter-spacing:.02em;
+}
+
+.parent-band::after {
+  content:"";
+  position:absolute;
+  left:0;
+  right:0;
+  bottom:-1px;
+  height:2px;
+  background:linear-gradient(90deg,#ec4899,#f59e0b);
+}
+
+.parent-band a {
+  display:inline-flex;
+  align-items:center;
+  gap:7px;
+  padding:7px 16px;
+  color:var(--paper);
+}
+
+.parent-band strong {
+  font-weight:700;
+  background:linear-gradient(90deg,#f472b6,#fbbf24);
+  -webkit-background-clip:text;
+  background-clip:text;
+  color:transparent;
+}
+
+.parent-band a:hover {
+  color:#fbbf24;
+}
+
+.parent-band a:focus-visible {
+  outline-offset:-3px;
+}
+
+.parent-band .parent-heart {
+  flex:none;
+  fill:#ec4899;
+}
+
+.parent-line {
+  grid-column:1/-1;
+  margin:0;
+  font-size:13px;
+  font-weight:600;
+}
+
+.parent-line a:hover {
+  color:#fbbf24;
+}
+
+.parent-line .parent-heart {
+  color:#ec4899;
+}
